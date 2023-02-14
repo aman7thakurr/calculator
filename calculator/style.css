@@ -1,0 +1,80 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* text-shadow: 5px -5px 10px #c7c3c3; */
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .container {
+        display: flex;
+        height: 500px;
+        width: 500px;
+        border-radius: 8px;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px -5px 15px #f76565;
+    }
+    
+    #display {
+        height: 50px;
+        width: 400px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 5px -3px 10px #d1cbcb;
+    }
+    
+    .button-buttonoperator {
+        height: 40px;
+        width: 80px;
+        border-radius: 8px;
+        border: none;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-color: #fa5252;
+        /* box-shadow: 5px -3px 10px #ed3838; */
+    }
+    
+    .button {
+        height: 40px;
+        width: 80px;
+        border-radius: 8px;
+        border: none;
+        margin-right: 20px;
+        margin-top: 20px;
+        box-shadow: 5px -3px 10px #d1cbcb;
+    }
+    
+    .clearbutton {
+        height: 40px;
+        width: 80px;
+        border-radius: 8px;
+        border: none;
+        margin-right: 20px;
+        /* box-shadow: 5px -5px 20px rgb(2, 167, 65); */
+        background-color: rgb(2, 167, 65);
+    }
+    
+    h4 {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
